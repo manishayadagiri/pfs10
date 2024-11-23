@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>General questions</h2>
+    <p>*Required fields</p>
+    <form action="" method="post">
+        <!-- Willing to Relocate -->
+        <label for="relocate">Are you willing to relocate?</label><br>
+        <input type="radio" id="yes" name="relocate" value="Yes" >
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="relocate" value="No" >
+        <label for="no">No</label><br><br>
+    
+        <!-- Preferred Work Location -->
+        <label for="work-location">Preferred Work Location:*</label><br>
+        <select id="work-location" name="work-location" required>
+            <option value="" selected>Select an option</option>
+            <option value="hyderabad">hyderabad</option>
+            <option value="banglore">banglore</option>
+            <option value="chennai">chennai</option>
+            <option value="mumbai">mumbai</option>
+            
+        </select><br><br>
+        <!-- How Did You Hear About This Role -->
+        <label for="source">How did you hear about this role?</label><br>
+        <select id="source" name="source" required>
+            <option value="" selected>Select an option</option>
+            <option value="Job Board">Job Board</option>
+            <option value="Referral">Referral</option>
+            <option value="Company Website">Company Website</option>
+            <option value="Social Media">Social Media</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+    
+        <!-- Submit Button -->
+        <button>continue</button>
+    </form>
+    
+</body>
+</html>

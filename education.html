@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h2>Educational History</h2>
+        <h2> with your highest level of education and include any ongoing studies</h2>
+    
+        <!-- Education Level -->
+        <label for="education-level">Education Level:</label><br>
+        <select id="education-level" name="education-level" >
+            <option value="" selected>Select your highest level of education</option>
+            <option value="High School">High School</option>
+            <option value="Associate Degree">Associate Degree</option>
+            <option value="Bachelor's Degree">Bachelor's Degree</option>
+            <option value="Master's Degree">Master's Degree</option>
+            <option value="Doctorate">Doctorate</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+    
+        <!-- School Name -->
+        <label for="school-name">School Name:</label><br>
+        <input type="text" id="school-name" name="school-name" placeholder="Enter your school name"><br><br>
+    
+        <!-- Areas of Study -->
+        <label for="areas-of-study">Area(s) of Study:</label><br>
+        <input type="text" id="areas-of-study" name="areas-of-study" placeholder="Enter your field(s) of study"><br><br>
+    
+        <!-- Current Student Status -->
+        <label>Are you currently a student?</label><br>
+        <input type="radio" id="student-yes" name="currently-student" value="Yes" >
+        <label for="student-yes">Yes</label><br>
+        <input type="radio" id="student-no" name="currently-student" value="No">
+        <label for="student-no">No</label><br><br>
+    
+        <!-- Graduation Timing -->
+        <label>When did you graduate?</label><br>
+        <input type="radio" id="less-than-1" name="graduation-timing" value="Less than 1 year ago" >
+        <label for="less-than-1">Less than 1 year ago</label><br>
+        <input type="radio" id="1-2-years" name="graduation-timing" value="1–2 years ago" >
+        <label for="1-2-years">1–2 years ago</label><br>
+        <input type="radio" id="2-3-years" name="graduation-timing" value="2–3 years ago" >
+        <label for="2-3-years">2–3 years ago</label><br>
+        <input type="radio" id="more-than-3" name="graduation-timing" value="More than 3 years ago" >
+        <label for="more-than-3">More than 3 years ago</label><br><br>
+    
+        <!-- Relevant Non-Internship Professional Experience -->
+        <label>Have you had relevant non-internship professional experience?</label><br>
+        <input type="radio" id="experience-yes" name="relevant-experience" value="Yes">
+        <label for="experience-yes">Yes</label><br>
+        <input type="radio" id="experience-no" name="relevant-experience" value="No" >
+        <label for="experience-no">No</label><br><br>
+    
+        <!-- Submit Button -->
+        <button >continue</button>
+    </form>
+    
+</body>
+</html>
