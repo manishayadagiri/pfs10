@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+        font-size:20px;
+        background-color:orange;
+    }
+    @media(orientation:portrait){
+        body{
+            font-size:25px;
+            background-color:green;
+        }
+    }
+    @media(orientation:landscape){
+        body{
+            font-size:30px;
+            background-color:red;
+        }
+    }
+    .styled-button:hover{
+        background-color: blueviolet;
+    }
+    .styled-button:focus{
+        background-color: yellow;
+    }
+    .styled-button:active{
+        background-color: palevioletred;
+    }
+    rammy{
+        font-size:16px;
+    }
+    .rammy:nth-child(even){
+        background-color:brown
+    }
+    .rammy:nth-child(3n){
+        background-color:yellowgreen
+    }
+
+    .mani::before{
+        content:"#";
+        color:gray
+    }
+    .mani::after{
+        content:"#";
+        color:black
+    }
+    .mani::first-letter{
+        color:white
+    }
+    .mani::first-line{
+        color:white
+    }
+    
+    </style>
+  
+</head>
+<body>
+    <h1 class="mani">JACK SPARROW </h1>
+    <p>He is the captian of blackpearl ship</p>
+    <button class="styled-button">submit</button>
+    <ul>
+        <li class="rammy">one</li>
+        <li class="rammy">two</li>
+        <li class="rammy">three</li>
+        <li class="rammy">four</li>
+        <li class="rammy">five</li>
+        <li class="rammy">six</li>
+    </ul>
+</body>
+</html>
